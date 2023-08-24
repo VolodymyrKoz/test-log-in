@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login or Register</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login_register.html">Log In</a></li>
+                <li><a href="login_register.html">Register</a></li>
+                <li><a href="admin_login.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Login or Register</h1>
+        <div id="loginForm">
+            <h2>Login</h2>
+            <form>
+                <label for="loginUsername">Username:</label>
+                <input type="text" id="loginUsername" required>
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" required>
+                <button id="loginSubmit">Log In</button>
+            </form>
+        </div>
+        <div id="registerForm">
+            <h2>Register</h2>
+            <form>
+                <label for="registerUsername">Username:</label>
+                <input type="text" id="registerUsername" required>
+                <label for="registerPassword">Password:</label>
+                <input type="password" id="registerPassword" required>
+                <button id="registerSubmit">Register</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
